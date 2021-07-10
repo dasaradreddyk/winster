@@ -1,0 +1,13 @@
+<body>
+  <app-nav-menu></app-nav-menu>
+  <div class="container">
+    <select [(ngModel)] ="searchword"  (change) =" OnCategoryCahnge($event)" >
+      <option value="Newtown">Newtown</option>
+      <option value="Sydney">Sydney</option>
+      <option value="General">General</option>
+    </select>
+    <app-table  [searchword]="searchword"></app-table>
+    <router-outlet></router-outlet>
+
+  </div>
+</body>

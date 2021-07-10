@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  border: 2px;
+    background-image: url('c:\users\dasaradh\source\repos\winster\winster\clientapp\src\app\bg.jpg');
+}
+
+th {
+    background-color: green;
+    Color: white;
+}
+
+th, td {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px
+}
+
+.geeks {
+    border-right: hidden;
+}
+
+.gfg {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+h1 {
+    color: green;
+}
